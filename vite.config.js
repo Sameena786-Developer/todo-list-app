@@ -6,4 +6,5 @@ import tailwindcss from
 
 export default defineConfig({
   plugins:[react(), tailwindcss()],
+  base:'/todo-list-app/'
 })
